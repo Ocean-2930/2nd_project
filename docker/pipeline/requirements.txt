@@ -3,7 +3,7 @@
 # - 미정
 #
 # Module:
-# - 데이터 파이프라인 (ETL)
+# - 데이터 파이프라인
 #
 # File: docker/pipeline/requirements.txt
 #
@@ -19,6 +19,7 @@
 # - 2026-03-06: initial version (조동휘)
 # - 2026-03-06: ipykernel jupyterlab 추가 (조동휘)
 # - 2026-03-06: cryptography 추가 (조동휘)
+# - 2026-03-10: jupyterlab 제거 및 모듈명 변경 (조동휘)
 # =========================================================================
 
 
@@ -41,5 +42,4 @@ cryptography>=42,<44
 # ------------------------------
 # Notebook / Interactive Dev
 # ------------------------------
-jupyterlab~=4.2
 ipykernel~=6.29
